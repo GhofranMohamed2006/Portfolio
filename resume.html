@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            background-color: #0B2B26;
+            color: #8EB69B;
+        }
+        .header {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            width: 100%;
+            font-weight: bold;
+            font-size: large;
+            background-color: #051F20;
+            margin-top: 0;
+            height: 40px;
+            padding-top: 15px;
+        }
+        .header a {
+            text-decoration: none;
+            color: #8EB69B;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        .header a:hover {
+            color: #235347;
+        }
+        .container  {
+            background-color: #235347;
+            border-radius: 20px;
+            box-shadow: 5px 5px 15px #8EB69B;
+            width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            display: flex;
+            gap: 50px;
+            transform: scale(0.25);
+            animation: zoomIn 0.8s forwards;
+        }
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.25);
+            }
+            to {
+                transform: scale(1);
+            }
+        }
+        h2 {
+            font-size: 30px;
+        }
+        li {
+            font-size: 20px;
+        }
+        p {
+            font-size:18px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="header">
+        <li><a href="portfolio.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Resume</a></li>
+    </ul>
+    <div class="container">
+        <div class="skills">
+            <div class="pr-lang">
+                <h2>Programming Languages</h2>
+                <ul>
+                    <li>C++</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SQL</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="lang">
+                <h2>Languages</h2>
+                <ul>
+                    <li>Arabic(Native)</li>
+                    <li>English(Intermediate)</li>
+                </ul>
+            </div>
+            <div class="tools-software">
+                <h2>Tools & Software</h2>
+                <ul>
+                    <li>Microsoft Office (Word, Excel, Power Point)</li>
+                    <li>Power BI</li>
+                </ul>
+            </div>
+            <div class="core-competencies">
+                <h2>Core Competencies</h2>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Data Analysis</li>
+                    <li>Team Collaboration</li>
+                </ul>
+            </div>
+        </div>
+        <div class="courses">
+            <h2>Courses & Training</h2>
+            <ul>
+                <li>C++ Fundamentals with Eng.Osama El-zero (implemented 20+ programs)</li>
+                <li>Python Fundamentals with Eng.Osama El-zero</li>
+                <li>CS50 Introduction to Computer Science with Eng.Ghareeb Elsheikh</li>
+                <li>Front-End Development with Eng.Osama El-zero (HTML completed)</li>
+                <li>Design Course With HTML and CSS with UCCD Damanhour</li>
+                <li>Data Analysis with Excel & Power BI with Creativa Hub Sohag</li>
+                <li>English Language Development (Ongoing)</li>
+                <li>Full Stack trainee at TEDxAOU</li>
+            </ul>
+            <div class="edu">
+            <h2>Education</h2>
+            <p>Faculty of Science, Computer Science<br> Department, Tanta University.</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
